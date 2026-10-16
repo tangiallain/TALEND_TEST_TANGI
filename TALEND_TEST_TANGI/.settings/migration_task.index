@@ -170,6 +170,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.designer.maven.migration.tasks.CorrectBuildTypeForApiFirstJobMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.maven.ui.ConfigMavenRepositoryRemove",
     "breaks" : "6.0.1",
     "version" : "6.0.2",
@@ -729,6 +734,16 @@
     "breaks" : "8.0.0",
     "version" : "8.0.1",
     "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.Adlsgen2MetadataSASEncryptMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.Adlsgen2SASEncryptMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ApplySecurityAfterAdvancedKafkaProperties",
     "breaks" : "8.0.0",
@@ -1653,6 +1668,11 @@
     "version" : "5.1.2",
     "status" : "ok"
   }, {
+    "id" : "org.talend.repository.model.migration.RenameAmazonMysqlMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.RenameConnectionName4tSQSOutput",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
@@ -1962,6 +1982,11 @@
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.model.migration.SAPReceiverKeyPrefixQuoteMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.SQS2TCKMigrationTask",
     "breaks" : "8.0.1",
@@ -2429,6 +2454,16 @@
     "breaks" : "7.1.0",
     "version" : "7.3.0",
     "status" : "ok"
+  }, {
+    "id" : "org.talend.sdk.component.studio.metadata.migration.SplunkChangeTokenTypeToPasswordMigration",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.sdk.component.studio.metadata.migration.SplunkMetadataEncryptTokenMigration",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
   }, {
     "id" : "org.talend.sdk.component.studio.metadata.migration.UpdateEncryptTckMetadataMigrationTask",
     "breaks" : "8.0.0",
